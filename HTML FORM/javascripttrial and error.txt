@@ -1,0 +1,97 @@
+// function myfunc() {
+	// var variable = '[{"Mode":"VTU"}, {"Mode":"AUTONOMOUS"}, {"Mode":"DU"}]';
+	// var jsonArray = JSON.parse(variable);
+	// var select = document.getElementById('University');
+	
+	// var option;
+	// for (var i = 0; i < jsonArray.length; i++) {
+			// option = document.createElement('option');
+			// option.text = jsonArray[i]["Mode"];
+			// option.value = jsonArray[i]["Mode"];
+			// select.add(option);
+	// }
+   
+	// var branch_variable = '[{"Branch":"ISE"}, {"Branch":"CSE"}, {"Branch":"ECE"}]';
+	// var branch_jsonArray = JSON.parse(branch_variable);
+	// var branch_select = document.getElementById('branch_id');
+	// var branch_option;
+	// for (var i = 0; i < branch_jsonArray.length; i++) {
+		// branch_option = document.createElement('option');
+		// branch_option.text = branch_jsonArray[i]["Branch"];
+		// branch_select.add(branch_option);
+	// }			
+//}
+
+ // "cars":[ "Ford", "BMW", "Fiat" ]
+ // function onClickUpdate() {
+	// var id = $('#University').val();console.log(id);
+	// var universityId = document.getElementById("University").value;console.log(universityId);
+	// var variable = '{"VTU":["RNS,BMS,PES"],"AUTONOMOUS" : ["NITTE,AIT,RV"],"DU" : ["MSRIT,ABC,QSPIDER"]}';
+	// var option;
+	// var select = document.getElementById("college_id")
+	// if(y == "VTU"){
+		// alert("huli");
+		// for(var i in variable){
+		// option = document.createElement('option');
+		// option.text = variable.VTU;
+		// select.add(option);
+		
+	// }
+		
+// }
+// }
+
+
+
+
+				// $(document).ready(function () {
+				 
+				// var list1 = document.getElementById('Branch');
+				 
+				// list1.options[0] = new Option('--Select--', '');
+				// list1.options[1] = new Option('ISE', 'ISE');
+				// list1.options[2] = new Option('CSE', 'CSE');
+				// });
+				// $("#University").change(function() {
+
+	// var $dropdown = $(this);
+
+	// $.getJSON("C:\Users\IOP Technologies 2\Desktop\HTML FORM\Data/college.json", function(college) {
+	
+		// var key = $dropdown.val();
+		// var vals = [];
+							
+		// switch(key) {
+			// case 'VTU':
+				// vals = data.VTU.split(",");
+				// break;
+			// case 'AUTONOMOUS':
+				// vals = data.AUTONOMOUS.split(",");
+				// break;
+			// case 'DU':
+				// vals = data.DU.split(",");
+				// break;
+			// case 'base':
+				// vals = ['Please choose from above'];
+				
+		// }
+		
+		// var $secondChoice = $("#College");
+		// $secondChoice.empty();
+		// $.each(vals, function(index, value) {
+			// $secondChoice.append("<option>" + value + "</option>");
+		// });
+
+	// });
+// });
+//var x = document.getElementById("University");
+//var option = document.createElement("option");
+//option.add = "Kiwi"; -->
+//var select = document.getElementById('University');
+  //select.options[select.options.length] = new Option('VTU', 'VTU');
+ //select.options[select.options.length] = new Option('AUTONOMOUS', 'AUTONOMOUS');
+  //select.options[select.options.length] = new Option('DU', 'DU');
+//var select1 = document.getElementById('Branch');
+	//select1.options[select.options.length] = new Option('ISE', 'ISE');
+	//select1.options[select.options.length] = new Option('CSE', 'CSE');
+	//select1.options[select.options.length] = new Option('ECE', 'ECE');
